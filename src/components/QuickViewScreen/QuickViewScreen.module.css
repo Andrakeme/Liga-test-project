@@ -1,0 +1,10 @@
+.type {
+    color: red;
+    font-weight: 500;
+}
+
+.header {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}

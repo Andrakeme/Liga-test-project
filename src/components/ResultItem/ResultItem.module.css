@@ -1,0 +1,79 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid rgb(65, 29, 228);
+    border-bottom: none;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 5px;
+    gap: 5px;
+    min-width: 400px;
+}
+
+.wrapper:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wrapper:last-child {
+    border-bottom: 1px solid rgb(65, 29, 228);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.name {
+    grid-row-start: 2;
+    justify-self: start;
+    padding-left: 10px;
+}
+
+.name span {
+    cursor: pointer;
+    color: rgb(35, 184, 22);
+}
+
+.name span:hover {
+    color: rgb(0, 252, 0)
+}
+
+.tags {
+    justify-self: start;
+    grid-column: 1/3;
+    padding-left: 10px;
+}
+
+.answerCount {
+    justify-self: center;
+}
+
+.tags span {
+    cursor: pointer;
+    color: rgb(255, 93, 93)
+}
+
+.tags span:hover {
+    color: rgb(209, 0, 0);
+}
+
+.quickView {
+    font-size: 12px;
+    min-width: 300px;
+}
+
+.topic {
+    grid-column: 1/3;
+    height: 40px;
+}
+
+.topic a, .answerCount a {
+    text-decoration: none;
+    color: rgb(52, 39, 230);
+}
+
+.topic a:visited, .answerCount a:visited {
+    color: rgb(52, 39, 230)
+}
+
+.topic a:hover, .answerCount a:hover {
+    color: rgb(0, 204, 255)
+}

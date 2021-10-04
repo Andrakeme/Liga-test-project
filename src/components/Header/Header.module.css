@@ -1,0 +1,17 @@
+.header {
+    font-size: 20px;
+    color: rgb(52, 39, 230);
+    font-weight: 500;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:visited {
+    color: rgb(52, 39, 230)
+}
+
+.header a:hover {
+    color: rgb(0, 204, 255)
+}
